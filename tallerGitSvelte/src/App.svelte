@@ -4,6 +4,7 @@
   import Counter from './lib/Counter.svelte'
   import ToogleDarkMode from './lib/ToogleDarkMode.svelte' 
   import Buscador from './lib/Buscador.svelte'
+  import Cronometro from './lib/Cronometro.svelte'
 </script>
 
 <main>
@@ -26,6 +27,10 @@
   </div>
   <div class="card">
     <Buscador />
+  </div>
+
+  <div class="card">
+    <Cronometro />
   </div>
 
   <p>
